@@ -1,5 +1,24 @@
 {
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "## Description Using SQL I have created a DB for a company to keep track of departments, roles, and empoyees. Each have their own table with their own key.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haileycarlson/employee-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haileycarlson/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/haileycarlson/employee-tracker#readme",
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "inquirer": "8.2.4",
+    "mysql2": "^2.1.0"
   }
 }
